@@ -1,0 +1,385 @@
+body {
+	/* background:url(../images/newfundo.png) repeat; */
+	background: #FFFFFF;
+	font-family: "Lucida Sans Unicode", Verdana, sans-serif;
+	}
+
+/* ----- BOX ----- */
+#box-geral{
+	width:780px;
+	height:auto;
+	margin-right:auto;
+	margin-left:auto;
+	}
+
+#box-meio{
+	width:580px;
+	height:auto;
+	float:right;
+	}
+	
+#box-lateral{
+	width:200px;
+	height:auto;
+	float:left;
+	margin-top:7px;
+	}
+
+	
+#box3{
+	width:780px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	clear:both;
+	}
+
+/* PARTE 1 ----- TOPO ----- */
+#topo{
+	margin-top:5px;
+	margin-left:auto;
+	margin-right:auto;
+	width:900px;
+	height:200px;
+	}
+	
+	
+	#banner{
+		width:903px;
+		height:118px;
+		background:url(../images/banner3.png);
+		
+		}
+		
+	#msg{
+		width:780px;
+		height:20px;
+		margin-top:15px;
+		margin-bottom:15px;
+		margin-left:auto;
+		margin-right:auto;
+		font-size:small;
+		text-align:center;
+		}
+	
+		
+	.menu{
+		width:810px;
+		margin-left:auto;
+		margin-right:auto;
+	border:none;
+	border:0px;
+	/* margin:0px; */
+	padding:0px;
+	font: 67.5% "Lucida Sans Unicode", Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	display: flex;
+	justify-content: space-around;
+	background: #fff;
+	}
+	.menu ul{
+	height:30px; /*altura da barra de menu*/
+	width:810px; /* width:899px; largura da barra de menu*/
+	list-style:none;
+	margin:0;
+	padding:0;
+	display: flex;
+	justify-content: space-around;
+	background: #08478E url(../images/hover2.gif) bottom center no-repeat; /* cor da barra de menu selecionado*/
+
+	}
+	.menu li{
+		float:left;
+		padding:0px;
+		background: #08478E /*#2580a2*/ url(../images/hover2.gif) bottom center no-repeat; /* cor da barra de menu selecionado*/
+	}
+	.menu li a{
+		background:#23238E url(../images/seperator.gif) bottom right no-repeat; /* cor da barra de menu*/
+		color:#FFFFFF; /* cor das letras da barra de menu */
+		display:block;
+		font-weight:normal;
+		line-height:30px;
+		margin:0px;
+		padding:0px 25px;
+		text-align:center;
+		text-decoration:none;
+		}
+
+	
+		
+		.menu li a:hover, .menu ul li:hover a{
+			background: #08478E /*#2580a2*/ url(../images/hover2.gif) bottom center no-repeat; /* cor da barra de menu selecionado*/
+			color:#FFFFFF; /* cor das letras da barra de menu selecionado*/
+			text-decoration:none;
+			}
+	.menu li ul{
+		background:#333333; /* cor das sub-barras da barra de menu */
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:225px;
+		z-index:200;
+		/*top:1em;
+		/*left:0;*/
+		}
+	.menu li:hover ul{
+		display:block;
+		
+		}
+	.menu li li {
+		background:url(../images/sub_sep.gif) bottom left no-repeat;
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:225px;
+		}
+	.menu li:hover li a{
+		background:none;
+		
+		}
+	.menu li ul a{
+		display:block;
+		height:35px;
+		font-size:12px;
+		font-style:normal;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.menu li ul a:hover, .menu li ul li:hover a{
+			background:#08478E/*2580a2*/ url(../images/hover_sub2.gif) center left no-repeat; /* cor do submenus selecionados*/
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+	.menu p{
+		clear:left;
+		}	
+
+	
+/* PARTE 2 ----- LADO ----- */
+
+#barra-vert{
+	width:200px;
+	height:270px;
+	}
+		
+#enquete {
+	width:200px;
+	height:auto;
+	margin-top:25px;	
+	}
+	
+#outros{
+	margin-top:15px;
+	margin-bottom:15px;
+	border-style:none;	
+	}
+	
+#borda img{
+   opacity:1;
+}
+
+#borda img:hover{
+   opacity:0.8;
+}
+	
+
+		
+/* PARTE 3 ----- MEIO ----- */
+
+#slideshow{
+	float:right;
+	width:575px;
+	height:auto;
+	margin-right:0px;
+	}
+
+#cont{
+	float:right;
+	width:auto;
+	height:auto;
+	margin-top:30px;
+	margin-bottom:10px;
+	/*background-color:#FFFFFF; */
+	}
+	
+#cont2{
+	float:right;
+	width:auto;
+	height:auto;
+	margin-top:15px;
+	margin-bottom:10px;
+	}	
+		
+	#titulo{
+		margin-top:0px;
+		margin-left:15px;
+		padding:10px;
+		width:525px;
+		font-size:26px;
+		/*border:2px solid #666; */
+		}
+		
+	#texto1{
+		margin-top:5px;
+		margin-left:15px;
+		padding:20px;
+		width:505px;
+		height:auto;
+		font-size:14px;
+		/* border:1px solid #666; */
+		text-align:justify;
+		}
+		#texto1 a{text-decoration:none; color:#000;} /* tirar sublinha e azul dos links das not�cias da pag principal */
+		#texto1 a:hover{color:#06366A;} /* colocar cor azul quando passar o mouse sobre as not�cias */
+		
+	#facebook{
+		margin-top:5px;
+		margin-left:15px;
+		padding:20px;
+		width:515px;
+		height:auto;
+		}
+		
+	#texto2{
+		margin-top:15px;
+		margin-left:15px;
+		padding:20px;
+		width:505px;
+		height:auto;
+		font-size:14px;
+		/* border:1px solid #666; */
+		}
+
+		
+/* PARTE 4 ----- RODAP� ------ */
+#rodape{
+	border:1px solid #666;
+	width:780px;
+	height:auto;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:small;
+	text-align:center;
+	}
+	#rodape a{text-decoration:none; color:#000;} /* tirar sublinha e azul dos links do rodape */
+	#rodape a:hover{color:#06366A;} /* colocar cor azul quando passar o mouse sobre links do rodape */
+	
+	#social{
+		border-bottom:1px solid #666;
+		width:780px;
+		height:25px;
+		margin-right:auto;
+		margin-left:auto;
+		margin-top:5px;
+		}
+	
+	#direitos{
+		width:780px;
+		height:40px;
+		margin-top:10px;
+		margin-right:auto;
+		margin-left:auto;
+		font-size:11px;
+		}
+
+
+/* ----- MENU SANFONA ----- */
+
+dl { width: 500px; }
+dl,dd { margin: 0; }
+dt { background: #4682B4; font-size: 13px; padding: 5px; margin: 2px; text-decoration:none; text-align:center;}
+dt a { color: #FFF; text-decoration:none; font-weight: bold;}
+dd a { color: #000; text-decoration:none;}
+ul.menu-sanf { list-style: none; padding: 5px;}
+li.menu-sanf1 { font-size:13px; text-align:justify;}
+
+
+/* ----- SETAS ----- */
+
+/**
+*** Seta para ESQUERDA
+**/
+.seta-esquerda:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+  width: 0; 
+  height: 0; 
+
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent; 
+  border-right: 7px solid blue; 
+}
+
+/**
+*** Seta para DIREITA
+**/
+.seta-direita:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid green;
+}
+
+/**
+*** Seta para CIMA
+**/
+.seta-cima:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+
+/**
+*** Seta para BAIXO
+**/
+.seta-baixo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #f00;
+}
+
+
+img#posgraduacao{
+	margin-top: 15px;
+	margin-right: 15px;
+}
+
+td#posgraduacao{
+	margin-right: 15px;
+}
+
+#container-ebook{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

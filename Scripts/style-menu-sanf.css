@@ -1,0 +1,32 @@
+body {
+  font-family:"Eras Demi ITC", Verdana, sans-serif;
+  font-size: 14px;
+}
+
+
+ul.menu, ul.menu ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  width: 40em; /* comprimento da barra de tíitulo */
+}
+
+ul.menu a {
+  display: block;
+  text-decoration: none;	
+}
+
+ul.menu li {
+  margin-top: 1px; /* largura entre as barras de título */
+}
+
+
+ul.menu li a {
+  background: #333333; /* cor da barra de título */
+  color: #CCC; /* cor do título*/	
+  padding: 0.5em; /* largura da barra de tíitulo */
+}
+
+ul.menu li a:hover {
+  color: #2580A2; /* cor do título com seta selecionando */
+}
